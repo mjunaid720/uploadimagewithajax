@@ -1,0 +1,22 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<script src="http://malsup.github.com/jquery.form.js"></script> 
+
+
+$('#submitaddnewreferencereq').on('click', function (e) {
+    e.preventDefault();
+    var sitebaseurl = $('#siteburl').val();
+    $("#c-ref-add-form").ajaxForm({
+        //Shows the response image in the div named preview 
+        url: sitebaseurl + '/addnewref/addrefcompany',
+        type: 'POST',
+        success: function (data) {
+            console.log(data);
+            //var input = $('#imagetoupload');
+
+        },
+        error: function () {
+
+        }
+    }).submit();
+});
