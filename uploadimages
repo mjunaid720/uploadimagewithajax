@@ -20,3 +20,12 @@ $('#submitaddnewreferencereq').on('click', function (e) {
         }
     }).submit();
 });
+
+// $
+
+
+
+// .
+
+
+return $('this').attr('');
