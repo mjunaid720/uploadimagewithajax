@@ -29,3 +29,9 @@ $('#submitaddnewreferencereq').on('click', function (e) {
 
 
 return $('this').attr('');
+
+abc(gh);
+
+function abc(df,fd){
+alert('test');
+}
