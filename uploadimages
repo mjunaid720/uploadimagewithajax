@@ -1,7 +1,6 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
 <script src="http://malsup.github.com/jquery.form.js"></script> 
-var sitebaseurl = $('#siteburl').val();
 
 $('#submitaddnewreferencereq').on('click', function (e) {
     e.preventDefault();
@@ -21,18 +20,3 @@ $('#submitaddnewreferencereq').on('click', function (e) {
     }).submit();
 });
 
-// $
-
-
-
-// .
-var sitebaseurl = $('#siteburl').val();
-
-return $('this').attr('');
-
-abc(gh);
-
-function abc(df,fd){
-alert('test');
-}
-var sitebaseurl = $('#siteburl').val();
